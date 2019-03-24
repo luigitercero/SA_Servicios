@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
+  <services>
+    <service name="Cliente">
+      <implementation-class>Cliente.Cliente</implementation-class>
+    </service>
+    <service name="Fabrica">
+      <implementation-class>Fabrica.Fabrica</implementation-class>
+    </service>
+    <service name="Revendedores">
+      <implementation-class>Revendedores.Revendedores</implementation-class>
+    </service>
+    <service name="Tienda">
+      <implementation-class>Tienda.Tienda</implementation-class>
+    </service>
+    <service name="Cola">
+      <implementation-class>Rabbi.Cola</implementation-class>
+    </service>
+  </services>
+  <clients/>
+  <jsr109>false</jsr109>
+</jax-ws>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoints version="2.0" xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime">
+  <endpoint implementation="Cliente.Cliente" name="Cliente" url-pattern="/Cliente"/>
+  <endpoint implementation="Fabrica.Fabrica" name="Fabrica" url-pattern="/Fabrica"/>
+  <endpoint implementation="Revendedores.Revendedores" name="Revendedores" url-pattern="/Revendedores"/>
+  <endpoint implementation="Tienda.Tienda" name="Tienda" url-pattern="/Tienda"/>
+  <endpoint implementation="Rabbi.Cola" name="Cola" url-pattern="/Cola"/>
+</endpoints>
